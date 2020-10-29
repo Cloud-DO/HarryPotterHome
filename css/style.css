@@ -1,8 +1,8 @@
 :root {
   /* background */
-  --c-main: rgb(91, 142, 158);
+  --c-main: rgb(88, 135, 150);
   --c-main-dark: rgb(76, 117, 129);
-  --c-main-light: rgb(124, 164, 175);
+  --c-main-light: rgb(140, 185, 197);
   --c-white: #fff;
 
   --c-grey-blue: #4a5771;
@@ -313,6 +313,15 @@ img {vertical-align: middle;}
   -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
+}
+
+.footer {
+  position: relative; 
+  bottom: 0; 
+  padding-top: 0px; 
+  color:var(--c-white); 
+  background-color: var(--c-main-light); 
+  height: 100%;
 }
 
 @-webkit-keyframes fade {
