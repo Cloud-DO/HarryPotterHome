@@ -1,21 +1,27 @@
 <html><head>
   <meta sourse="style.css" name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-  
-  <div class="topnav">
-    <a class="active" href="#Home">Home</a>
-    <a href="file:///Users/leontyk/Library/Messages/Attachments/2e/14/4FCE4AC4-B861-4163-AC57-A4D2BEE9FC97/2020-04-09%20Dasha's%20html%20project/Timeline.html">Timeline</a>
-  
-    <a href="file:///Users/leontyk/Library/Messages/Attachments/2e/14/4FCE4AC4-B861-4163-AC57-A4D2BEE9FC97/2020-04-09%20Dasha's%20html%20project/Facts.html">Facts</a>
-    <a href="file:///Users/leontyk/Library/Messages/Attachments/2e/14/4FCE4AC4-B861-4163-AC57-A4D2BEE9FC97/2020-04-09%20Dasha's%20html%20project/Contact.html">Contact </a>
-  </div>
+
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active">Home</a>
+  <a href="#news">News</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
   
   
   <div class="welcome">
   <div class="home-page-welcome">
-  <div><img src="img/IMG_1273.JPG" width="120px"></div>
+  <div><img src="img/IMG_1273.JPG" class="home-page-w" ></div>
   <div class="home-page-elcome">elcome</div>
   </div>
   
@@ -26,9 +32,9 @@
   <div class="harrypotter-container">
   <div class="harry">
     <div class="home-page-harry">
-      <div><img class="mobile-element" src="img/IMG_1276.JPG" width="49px"></div>
-      <div><img class="tablet-element" src="img/IMG_1276.JPG" width="63px"></div>  
-      <div><img class="mobile-small-element" src="img/IMG_1276.JPG" width="45px"></div>
+
+      <div><img src="img/IMG_1276.JPG" class="home-page-h"></div> 
+      
       <div class="home-page-arry">arry</div>
     </div>
     
@@ -36,9 +42,9 @@
   
   <div class="potter">
     <div class="home-page-potter">
-    <div><img class="mobile-element" src="img/IMG_1277.JPG" width="45px"></div>
-    <div><img class="tablet-element" src="img/IMG_1277.JPG" width="60px"></div>
-    <div><img class="mobile-small-element" src="img/IMG_1277.JPG" width="45px"></div>
+
+    <div><img src="img/IMG_1277.JPG" class="home-page-p"></div>
+
     <div class="home-page-otter">otter</div>
     <div class="home-page-site">site!</div>
     </div>
@@ -103,5 +109,5 @@
   </div>
   
   <script src="js/slideshow.js"></script>
-    
+  <script src="js/menu.js"></script>    
   </body></html>
