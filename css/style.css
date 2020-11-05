@@ -443,6 +443,102 @@ img {vertical-align: middle;}
   margin-right: 20px;
 }
 
+
+
+
+
+
+.cont {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px 15px;
+}
+
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+.cont::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.cont img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+.cont img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+.time-left {
+  float: left;
+  color: #999;
+}
+
+
+
+
+
+
+
+.notification {
+  text-decoration: none;
+  padding: 15px 26px;
+  position: relative;
+  display: inline-block;
+}
+
+
+.notification .badge {
+  position: absolute;
+  top: 3px;
+  right: -3px;
+  padding: 1.5px 6px;
+  border-radius: 50%;
+  background-color: var(--c-white);
+  color: var(--c-main);
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @-webkit-keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
